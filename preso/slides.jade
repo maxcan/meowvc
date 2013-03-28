@@ -1,0 +1,145 @@
+!!!
+html
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="A framework for easily creating beautiful presentations using HTML")
+    meta(name="author", content="Max Cantor")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+    link(rel="stylesheet", href="reveal.js/css/reveal.min.css")
+    link(rel="stylesheet", href="reveal.js/css/theme/night.css", id="theme")
+    title meow.vc
+
+    script(src="jquery-1.9.1.min.js")
+
+    link(rel="stylesheet", href="/style.css")
+      
+  body
+    #fb-root
+    script
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=361845067189864";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    .reveal
+      .slides
+        section
+          h3 a new kind of accelerator
+        section
+          section
+            h2 are you fast?
+          section
+            h2 are you agile?
+          section
+            h2 are you ready to pounce on new markets?
+          section
+            h3 introducing
+            h1 ...
+          section(data-state="keyboard-cat")
+            h1 meow.vc
+            h4 finally, an accelerator for cats.
+        section
+          h2 about meow.vc
+        section
+          h3 amazing mentors:
+          hr
+          table
+            tr
+              th
+              th name
+              th specialty
+            tr.fragment
+              td
+                img(width="175", src="/maru.jpg")
+              td maru
+              td social media
+            tr.fragment
+              td
+                img(width="175", src="/omega.png")
+              td omega
+              td brutality
+            tr.fragment
+              td
+                img(width="175", src="/grumpy.png")
+              td cameron teitelman
+              td business development
+            tr.fragment
+              td
+                img(width="175", src="/scoble.png")
+              td robert scoble
+              td 
+                em we have no idea
+        section
+          section
+            h2 meow.vc synthesizes the best practices of other accelerators
+          section#show_maru
+            h3 experiential education
+            .iframe-wrapper
+          section#show_climb
+            h3 experiential education
+            .iframe-wrapper
+          section
+            h3 we're not afraid of rejecting high profile applications
+            hr
+            table
+              tr.fragment
+                td
+                  img(width="90%", src="/dropbox.png")
+                td 2 weeks in we learned that the founders are not actually feline and referred them to y-combinator.
+              tr.fragment
+                td
+                  img(width="90%", src="/apple.png")
+                td our founders are carnivores.  no time for fruit companies.
+              tr.fragment
+                td
+                  img(width="90%", src="/zygna.jpg")
+                td really?  that logo?  screw that guy.
+        section
+          section
+            h2 about the meow.vc founders
+          section
+            h2 we do not accept corporate bobs.
+            .fragment
+              span
+                p not these guys
+                img(width="40%", src="/os-bobs.jpg")
+            .fragment
+              span
+                p or these guys
+                img(width="40%", src="/bobcats.png")
+          section#show_comp
+            h3 our founders never hesitate to defend against larger competitors
+            .iframe-wrapper
+          section
+            h3 our founders exploit the burgeoning sharing economy
+            img.fragment(width="40%", src="/omega-laptop.jpg")
+          section
+            h3 our founders never fear the failure and iteration cycle
+            img.fragment(width="90%", src="/shit.gif")
+            p.fragment we call it the "oh shit shit shit!" cycle
+          section
+            h4 finally
+            h2.fragment
+              | our founders never reply on IP as young startups
+            .fragment
+              hr
+              h3
+                | if it can't be pissed on, it isn't property
+        section
+          h2 thank you
+          a.roll( href="http://meow.vc/")
+            | http://meow.vc
+          hr
+          div(class="fb-like-box", data-href="http://www.facebook.com/meowdotvc", data-width="292", data-show-faces="false", data-colorscheme="dark", data-stream="false", data-header="true")
+          
+
+
+          
+
+    script(src="reveal.js/lib/js/head.min.js")
+    script(src="reveal.js/js/reveal.js")
+    script(src="app.js")
