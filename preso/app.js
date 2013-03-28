@@ -24,7 +24,7 @@ $(function() {
       // event.previousSlide, event.currentSlide, event.indexh, event.indexv
     try {
       if (event.currentSlide.id === 'show_comp') {
-        $('#show_comp .iframe-wrapper').html('<iframe width="66%" height="66%" src="http://www.youtube.com/embed/PVho5vtXm0c?start=19&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+        $('#show_comp .iframe-wrapper').html('<iframe width="66%" height="66%" src="http://www.youtube.com/embed/PVho5vtXm0c?autoplay=1" frameborder="0" allowfullscreen></iframe>');
       } else {
         $('#show_comp .iframe-wrapper').html('');
       }
